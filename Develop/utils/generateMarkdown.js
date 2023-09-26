@@ -24,12 +24,17 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Contributors](#contributors)
-    * [Testing](#testing)
-    * [Questions](#questions)
+  [Installation](#installation)
+
+  [Usage](#usage)
+
+  [License](#license)
+
+  [Contributors](#contributors)
+
+  [Testing](#testing)
+  
+  [Questions](#questions)
   
 ## Installation
 
