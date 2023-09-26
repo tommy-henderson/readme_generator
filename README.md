@@ -1,4 +1,4 @@
-# <Professional README Generator>
+# <Professional-README-Generator>
 
 ## Description
 
@@ -10,7 +10,7 @@ The user needs inquirer and Node JS to be able to run this app after cloning fro
 
 ## Usage
 
-![Usage Video](<Untitled_ Sep 25, 2023 10_44 PM.gif>)
+![Usage GIF](Develop/utils/usagevid.gif)
 
 Run node index.js from your command line. Then answer the questions about your project. 
 
