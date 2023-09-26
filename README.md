@@ -6,9 +6,11 @@ This application will prompt the user with questions and then create a README us
 
 ## Installation
 
-The user needs inquirer and Node JS to be able to run this app from GitHub. 
+The user needs inquirer and Node JS to be able to run this app after cloning from GitHub. 
 
 ## Usage
+
+![Usage Video](<Untitled_ Sep 25, 2023 10_44 PM.gif>)
 
 Run node index.js from your command line. Then answer the questions about your project. 
 
@@ -18,4 +20,4 @@ https://github.com/AllenM03/professional-readme-creator/tree/main
 
 ## License
 
-Please refer to the license in the repository
+Please refer to the license in the repository.
