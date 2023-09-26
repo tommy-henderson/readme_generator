@@ -3,49 +3,47 @@ const inquirer = require('inquirer');
 const fs = require('fs')
 
 // TODO: Create an array of questions for user input
-const questions = () => {
-    return inquirer
-        .prompt([
-{
-    type: 'input',
-    name: 'title',
-    message: 'What is the title of your project?'
-},
-{
-    type: 'input',
-    name: 'description',
-    message: 'describe your project?'
-},
-{
-    type: 'input',
-    name: 'installation',
-    message: 'what are the steps to install your project?'
-},
+inquirer
+    .prompt([
+        {
+            type: 'input',
+            name: 'title',
+            message: 'What is the title of your project?'
+        },
+        {
+            type: 'input',
+            name: 'description',
+            message: 'describe your project?'
+        },
+        {
+            type: 'input',
+            name: 'installation',
+            message: 'what are the steps to install your project?'
+        },
 
-{
-    type: 'input',
-    name: 'usage',
-    message: 'how do you use your project?'
-},
-{
-    type: 'input',
-    name: 'license',
-    message: 'what license did you use for this project?'
-},
-{
-    type: 'input',
-    name: 'contributors',
-    message: 'Who contributed to this project?'
-},
-{
-    type: 'input',
-    name: 'tests',
-    message: 'how do you test this project?'
-},
-        ])
-}
-// TODO: Create an array of questions for user input
-const questions = [];
+        {
+            type: 'input',
+            name: 'usage',
+            message: 'how do you use your project?'
+        },
+        {
+            type: 'list',
+            name: 'license',
+            message: 'what license did you use for this project?',
+            choices: ['MIT', 'CC', 'BSD']
+        },
+        {
+            type: 'input',
+            name: 'contributors',
+            message: 'Who contributed to this project?'
+        },
+        {
+            type: 'input',
+            name: 'tests',
+            message: 'how do you test this project?'
+        },
+    ])
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) { }
